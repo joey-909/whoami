@@ -3,7 +3,7 @@ from modules.whoami_functions import check_updates, local_ip, machine_os, clear
 from modules.whoami_create import show_payloads, check_payload, create_payload
 from modules.whoami_listen import whoami_listen
 
-version = "1.0"
+version = "1.1"
 
 RED = '\033[91m'
 GREEN = '\33[32m'
@@ -14,7 +14,7 @@ def logo():
 
     clear()
 
-    print(f"""\n
+    print("""\n
      __          ___                           _ 
      \ \        / / |                         (_)
       \ \  /\  / /| |__   ___   __ _ _ __ ___  _ 
