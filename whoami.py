@@ -1,6 +1,6 @@
 ## Important Note: Don't Change Anything In The Script If You Want To Change In The Script Its On Your Own Responsability
 from modules.whoami_functions import check_updates, local_ip, machine_os, clear
-from modules.whoami_create import show_payloads, check_payload, create_payload
+from modules.whoami_create import show_payloads_windows,show_payloads_mac,show_payloads_linux, check_payload, create_payload
 from modules.whoami_listen import listen
 
 version = "1.0"
@@ -43,8 +43,14 @@ def main():
                     if command == "help":
                         print(f"\n[+] show payloads   : Show Available Payloads\n[+] set payload     : Use Payload\n[+] clear           : Clear\n[+] back            : Return To The Home Menu")
 
-                    elif command == "show payloads":
-                        print(show_payloads())
+                    elif command == "show payload windows":
+                        print(show_payloads_windows())
+
+                    elif command == "show payload mac":
+                        print(show_payloads_mac())
+
+                    elif command == "show payload linux":
+                        print(show_payloads_linux())
 
                     elif command == "set payload":
                         payload = input("\n[-] Enter Payload Path: ").lower()

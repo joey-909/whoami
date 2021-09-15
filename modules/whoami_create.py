@@ -1,18 +1,32 @@
 import os
+import glob
 
 try:
-    import pathlib
+    from pathlib import Path
 except:
     print("\n[!] Failed To Import Packeges Try To Install It Manually Using The Following Command 'pip install -r requirements.txt'.")
     exit()
 
-def show_payloads():
-    payloads = pathlib.Path().glob("payloads/*/*.py")
+def show_payloads_windows():
     
-    for file in payloads:
-        return(f"\n[+] {file}")
-    else:
-        return("\n[!] There Is No Payloads Right Now.")
+    for p in Path( 'payloads/windows' ).iterdir():
+        print( p )
+    #else:
+        #print("\n[!] There Is No Payloads Right Now.")
+
+def show_payloads_mac():
+    
+    for p in Path( 'payloads/mac' ).iterdir():
+        print( p )
+    #else:
+        #print("\n[!] There Is No Payloads Right Now.")
+
+def show_payloads_linux():
+    
+    for p in Path( 'payloads/linux' ).iterdir():
+        print( p )
+    #else:
+        #print("\n[!] There Is No Payloads Right Now.")
 
 def check_payload(payload):
     if os.path.isfile(payload):
