@@ -1,8 +1,15 @@
-# whoami
-Whoami It's A Tool That Will Help You To Create Undetectable Payloads
+# Whoami: The Door For Evil
 
-How To Start:
+Whoami Is A Tool That Will Help You To Create Undetectable Payloads.
 
-Just Go To The Tool Folder And Type python3 whoami.py
+The Tool Support Kali And Windows And Mac Os And Test It With python3.7, python3.9+
 
-Have Fun :)
+How To Start
+
+Install The Tool Libraries Using The Following Command: pip install -r requirements.txt
+
+And Type python3 whoami.py
+
+And Thats It Have Fun :)
+
+Buy Me A Drink: paypal.me/youssefmohamed77
