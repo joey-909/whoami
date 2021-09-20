@@ -59,4 +59,4 @@ def whoami_listen(listen_host, listen_port):
 
     except Exception as error:
         print(f"\n{error}")
-        print (f"\n{RED}[!]{END} Please Check Your Host And Your Port: \n{RED}[!]{END} Host : {listen_host}\n{RED}[!]{END} Port : {listen_port}")
+        print (f"\n{RED}[!]{END} Please Check Your Host And Your Port: \n{RED}[!]{END} Host : {listen_host}\n{RED}[!]{END} Port : {listen_port}.")
