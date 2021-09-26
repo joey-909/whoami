@@ -25,7 +25,7 @@ def connection_check():
 
 def check_updates(version):
     try:
-        version_update_source = requests.get("https://raw.githubusercontent.com/whoami-99/whoami-version/main/version.txt")
+        version_update_source = requests.get("https://raw.githubusercontent.com/whoami-99/whoami-version/main/whoami_version.txt")
         version_update_source = version_update_source.text
         
         if version_update_source != version:
