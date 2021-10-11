@@ -11,5 +11,3 @@ Install The Tool Libraries Using The Following Command: pip install -r requireme
 And Type python3 whoami.py
 
 And Thats It Have Fun :)
-
-Buy Me A Drink: paypal.me/youssefmohamed77
