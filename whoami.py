@@ -234,7 +234,7 @@ def main():
 
                 elif command == "whoami":
                     check_updates(version)
-                    print(f"\n{TRUE} Machine Os      : {machine_os()}\n{TRUE} Your Local Ip   : {local_ip()}\n{TRUE} Whoami Version  : {version}\n{TRUE} Payloads        : {payloads_number()}\n{TRUE} Whoami Link     : https://github.com/whoami-99/whoami\n{TRUE} Whoami Authors   : whoami_99 & jason")
+                    print(f"\n{TRUE} Machine Os      : {machine_os()}\n{TRUE} Your Local Ip   : {local_ip()}\n{TRUE} Whoami Version  : {version}\n{TRUE} Payloads        : {payloads_number()}\n{TRUE} Whoami Link     : https://github.com/whoami-99/whoami\n{TRUE} Whoami Authors  : whoami_99 & jason")
 
                 elif command == "help":
                     print(F"\n{TRUE} create  : Create A New Payload\n{TRUE} listen  : Start Listening\n{TRUE} tools   : A Built In Whoami Tools That Will Help You\n{TRUE} whoami  : View Whoami information\n{TRUE} clear   : Clear The Screen\n{TRUE} exit    : Exit Whoami")
